@@ -1,0 +1,5 @@
+version: '3'
+services:
+  build:
+    ...
+    mem_limit: 4096m

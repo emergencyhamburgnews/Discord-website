@@ -1,6 +1,8 @@
 {
 "scripts": {
-    "build": "npm run build"
+    "build": "npm run build:css && npm run build:js",
+    "build:css": "css-build-command",
+    "build:js": "js-build-command"
 }
 }
 
